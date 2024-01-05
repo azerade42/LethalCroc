@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LethalCroc", "LethalCroc\LethalCroc.csproj", "{FA842210-4115-44B7-A045-810EEB5E8B08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA842210-4115-44B7-A045-810EEB5E8B08}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FA842210-4115-44B7-A045-810EEB5E8B08}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FA842210-4115-44B7-A045-810EEB5E8B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA842210-4115-44B7-A045-810EEB5E8B08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {292680A3-B922-4F72-A99C-B799C6C4AD2C}
+	EndGlobalSection
+EndGlobal
