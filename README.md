@@ -15,6 +15,6 @@ ModelReplacementAPI: [Bunya](https://github.com/BunyaPineTree/LethalCompany_Mode
 
 Model/Textures: [Luzzy](https://twitter.com/luzzyderay)
 
-Dynamic tail bone: [EZhex1991](https://assetstore.unity.com/packages/tools/physics/ezsoftbone-148136)
+EZSoftbone package (used for tail): [EZhex1991](https://assetstore.unity.com/packages/tools/physics/ezsoftbone-148136)
 
 ![croc_standing](https://github.com/azerade42/LethalCroc/assets/56888291/0fcfdda5-ef6c-47d2-83c4-74a5dc4da299)
