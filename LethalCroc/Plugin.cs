@@ -18,6 +18,10 @@ namespace LethalCroc
         private const string modName = "Lethal Croc";
         private const string modVersion = "1.0.0.0";
 
+        private readonly Harmony harmony = new Harmony(modGUID);
+
+        internal ManualLogSource mls;
+
         public static ConfigFile config;
 
         // Universal config options 
@@ -25,9 +29,16 @@ namespace LethalCroc
         public static ConfigEntry<bool> enableCrocAsDefault { get; private set; }
         public static ConfigEntry<string> suitNamesToEnableCroc { get; private set; }
 
+        // Scuffed Singleton
+        private static LethalCrocBase Instance;
         
         private void Awake()
         {
+            if (Instance == null)
+            {
+                Instance = this;
+            }
+
             config = base.Config;
             InitConfig();
             Assets.PopulateAssets();

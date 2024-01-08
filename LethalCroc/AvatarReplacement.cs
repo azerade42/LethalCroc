@@ -18,7 +18,6 @@ namespace LethalCroc
             string model_name = "LethalCrocPrefab";
             GameObject crocPrefab = Assets.MainAssetBundle.LoadAsset<GameObject>(model_name);
 
-            // Create EZ Softbone component and add to tail
             EZSoftBone bone = crocPrefab.AddComponent<EZSoftBone>();
             bone.rootBones = new List<Transform>();
             Transform tailBone = crocPrefab.transform.Find("Armature.001/spine/Bone");
